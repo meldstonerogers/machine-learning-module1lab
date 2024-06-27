@@ -24,6 +24,7 @@ Install required packages
 ```
 pip install numpy
 pip install jupyterlab matplotlib pandas
+python3 -m pip install -U scikit-learn
 ```
 
 Create requirements.txt in the root project folder. 
@@ -75,33 +76,10 @@ git add .
 git commit -m "initial"                         
 git push origin main
 ```
-## Project Data Set
-For this project, a data set from Seaborn will be used. The data file is flights.csv and contains data of the number of passengers in given months and years. 
-[Flights Data Set](https://github.com/mwaskom/seaborn-data/blob/master/flights.csv)
+### Start and Complete Project 
+Copy lab1_starter.ipynb into workspace and open it. 
 
-
-## Exploratory Data Analysis within Jupyter
-Create a new juypyter file. 
-```
-touch filename.ipynb
-```
-
-## Import Dependencies 
-
-```
-import matplotlib.pyplot as plt
-import pandas as pd
-import seaborn as sns
-import pyarrow as pa
-```
-## Follow Steps to Complete EDA
-
-
-
-
-
-### Summary
-Within each visualization of data, observations and conclusions were noted. 
+Follow project steps as found in [this PDF](https://github.com/meldstonerogers/machine-learning-module1lab/blob/main/Lab%20W1%20scikit.pdf).
 
 
 ## Complete Your Project
