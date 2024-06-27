@@ -17,6 +17,7 @@ Verify Python version of Python 3
 python3 --version
 
 ```
+```
 python3 -m venv ds-venv
 source ds-venv/bin/activate
 ```
